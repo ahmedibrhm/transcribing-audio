@@ -4,7 +4,7 @@ import uuid
 
 client = OpenAI()
 # Step 1: Create an Assistant
-my_assistant = client.beta.assistants.retrieve('asst_TmqkL7qUMcqvnrTh4PXWPtvP')
+my_assistant = client.beta.assistants.create()
 
 my_thread = client.beta.threads.create()
 
